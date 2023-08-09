@@ -3,11 +3,12 @@ import HookUseState from "./hooks/HookUseState";
 import HookUseCallback from "./hooks/HookUseCallback";
 import HookUseMemo from "./hooks/HookUseMemo";
 import HookUseRef from "./hooks/HookUseRef";
+import HookUseContext from "./hooks/HookUseContext";
 
 
 const App = () => {
     return (
-        <HookUseRef />
+        <HookUseContext />
     )
 }
 export default App;
