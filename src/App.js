@@ -6,11 +6,12 @@ import HookUseRef from "./hooks/HookUseRef";
 import HookUseContext from "./hooks/HookUseContext";
 import HookUseReducer from "./hooks/HookUseReducer";
 import HookUseContextUseReducer from "./hooks/useContext+useReducer/HookUseContextUseReducer";
+import MyHook from "./hooks/myHook/MyHook";
 
 
 const App = () => {
     return (
-        <HookUseContextUseReducer />
+        <MyHook />
     )
 }
 export default App;
